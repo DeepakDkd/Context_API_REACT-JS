@@ -15,7 +15,7 @@ function Login() {
 
   return (
     <div className='login'>
-        <h1>Login here...</h1>
+        <h2>Login here...</h2>
         <input type='text'
                 onChange={(e) => setUsername(e.target.value)}
                 placeholder='Enter username' />
