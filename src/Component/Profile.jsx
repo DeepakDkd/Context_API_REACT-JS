@@ -9,8 +9,7 @@ function Profile() {
 
   return (
     <div>
-        <h1>{user ?`Welcome to Profile ${user.username}`:"Please login"}</h1>
-        {!user ? <Login/>:<h2>Login successful..</h2>}
+        <h1>{user ?`Welcome to Profile ${user.username}`:<Login/>}</h1>
     </div>
   )
 }
